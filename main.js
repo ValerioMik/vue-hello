@@ -9,7 +9,12 @@ var eseRcizio = new Vue({
     data: {
         message:'Questo nuovo  framework mi sta piacendo per ora',
         immagine:'https://unsplash.it/300/300?image=',
-        miaclss:'red'
+        miaclss:'red',
+        testorand :`
+        <span>prova per inserire dell'HTML:</span>
+        <h1>ci sono riuscito  ecco i due testi</h1>
+        
+        `
     },
     methods:{
        cambiaImg: function(){
